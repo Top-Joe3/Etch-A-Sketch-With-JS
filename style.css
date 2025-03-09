@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.container {
+    width: 700px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    border: medium solid black;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.conBox {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FDE7AD;
+    border-radius: 5px;
+}
